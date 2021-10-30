@@ -5,7 +5,7 @@ body {
 
 .header {
   height: 300px;
-  background-color: #741d8f;
+  background-color: #415f85;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h2 {
 
 #menu {
   width: 100%;
-  background-color: #2f1936;
+  background-color: #1b314d;
   height: 120px;
   padding: 0;
   margin: 0;
@@ -44,5 +44,19 @@ li {
 
 .cont {
   height: 500px;
-  background-color: #d1bfdb;
+  background-color: #afbbc9;
+}
+
+.txt{
+font-family: Trebuchet MS, Arial;
+font-size: 26px;
+text-align: center;
+color: black;
+}
+
+.subtxt{
+font-family: Trebuchet MS, Arial;
+font-size: 20px;
+text-align: center;
+color: black;
 }
