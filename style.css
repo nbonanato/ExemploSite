@@ -73,3 +73,10 @@ width: 30%;
 border: 1px solid;
 margin: 0px 10px 10px 0px;
 }
+
+ .anime img {
+ float: left;
+ width: 20%;
+ border: 1px solid;
+ margin: 0px 10px 10px 0px;
+ }
