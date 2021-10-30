@@ -1,0 +1,48 @@
+body {
+  background-color: #bfbfbf;
+  margin: 50px;
+}
+
+.header {
+  height: 300px;
+  background-color: #741d8f;
+}
+
+h1 {
+font-family: Trebuchet MS, Arial;
+font-size: 26px;
+text-align: center;
+color: white;
+}
+
+h2 {
+  font-family: Trebuchet MS, Arial;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+#menu {
+  width: 100%;
+  background-color: #2f1936;
+  height: 120px;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px 10px 10px 150px;
+    display: inline;
+    float: left;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Trebuchet MS;
+    vertical-align: middle;
+}
+
+.cont {
+  height: 500px;
+  background-color: #d1bfdb;
+}
