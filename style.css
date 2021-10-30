@@ -43,7 +43,7 @@ li {
 }
 
 .cont {
-  height: 500px;
+  height: 1000px;
   background-color: #afbbc9;
 }
 
@@ -59,4 +59,17 @@ font-family: Trebuchet MS, Arial;
 font-size: 20px;
 text-align: center;
 color: black;
+}
+
+p {
+font-family: Trebuchet MS, Arial;
+font-size: 18px;
+color: black;
+}
+
+.jogo img {
+float: left;
+width: 30%;
+border: 1px solid;
+margin: 0px 10px 10px 0px;
 }
