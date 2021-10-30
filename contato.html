@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Teste</title>
+  </head>
+  <body>
+
+<div class="header">
+<br><br><br><br>  <h1>Cultura Geek</h1>
+  <h2>O seu portal de cultura pop!</h2>
+</div>
+
+<div id="menu">
+<ul><br><br>
+  <li><a href="index.html">Página Inicial</a></li>
+  <li><a href="games.html">Games</a></li>
+  <li> <a href="seriesfea.html">Séries, Filmes e Animes</a></li>
+  <li> <a href="musica.html">Música</a></li>
+  <li> <a href="contato.html">Contato</a><li>
+  </div>
+
+<div class="cont">
+<br><br><br>
+<h1 class="txt">Contato - Cultura Geek!</h1>
+<h2 class ="subtxt">Alguma dúvida, reclamação, sugestão, ou quer apenas bater um papo com a gente? Preencha o formulário abaixo!</h2>
+
+<!-- formulario -->
+<div id="after_submit"></div>
+
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+  <div class="row">
+      <label class="required" for="name">Seu nome:</label><br />
+    <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+    <span id="name_validation" class="error_message"></span>
+  </div>
+
+  <div class="row">
+    <label class="required" for="email">Seu e-mail:</label><br />
+    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+    <span id="email_validation" class="error_message"></span>
+  </div>
+
+  <div class="row">
+    <label class="required" for="message">Sua mensagem:</label><br />
+    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    <span id="message_validation" class="error_message"></span>
+  </div>
+
+    <input id="submit_button" type="submit" value="Enviar!" />
+</form>
+
+</div>
+
+  </body>
+</html>
